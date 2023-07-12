@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css"> 
+    <title>Try</title>
+</head>
+<body>
+    <h1>Sorting Algorithm Showcase</h1>
+
+    <div id="barSection">
+        <button id="add-btn">Hold to Add Bars</button>
+        <button id="delete-btn">Delete Bar</button>
+        <button id="remove-btn">Remove All</button>
+
+    </div>
+    <div id="sortSection">
+        <button id="bubble-sort">Bubble Sort</button>
+        <button id="insertion-sort">Insertion Sort</button>
+        <button id="selection-sort">Selection Sort</button>
+        <button id="merge-sort">Merge Sort</button>
+        <button id="quick-sort">Quick Sort</button>
+
+    </div>
+
+    <div>
+        <input type="range" id="speedBar" min="50" max="9000" value="2500">
+    </div>
+
+    <div id="bars-container">
+        <div class="bar"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

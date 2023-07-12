@@ -1,0 +1,90 @@
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+body {
+    background-color: rgb(201, 148, 226);
+}
+
+.bar {
+    width: 20px;
+    height: 25px;
+    background-color: forestgreen;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+
+#barSection button {
+    background-color: #4CAF50;
+    /* Set the background color */
+    border: none;
+    /* Remove the default border */
+    color: white;
+    /* Set the text color */
+    padding: 10px 20px;
+    /* Set padding to create some space around the text */
+    text-align: center;
+    /* Center the text horizontally */
+    text-decoration: none;
+    /* Remove underlines or other decorations */
+    display: inline-block;
+    /* Make the button a block element */
+    font-size: 16px;
+    /* Set the font size */
+    transition-duration: 0.3s;
+    /* Add a smooth transition effect */
+    cursor: pointer;
+    /* Add a pointer cursor on hover */
+    border-radius: 4px;
+    margin: 5px;
+}
+
+#sortSection button {
+    background-color: #4CAF50;
+    /* Set the background color */
+    border: none;
+    /* Remove the default border */
+    color: white;
+    /* Set the text color */
+    padding: 10px 20px;
+    /* Set padding to create some space around the text */
+    text-align: center;
+    /* Center the text horizontally */
+    text-decoration: none;
+    /* Remove underlines or other decorations */
+    display: inline-block;
+    /* Make the button a block element */
+    font-size: 16px;
+    /* Set the font size */
+    transition-duration: 0.3s;
+    /* Add a smooth transition effect */
+    cursor: pointer;
+    /* Add a pointer cursor on hover */
+    border-radius: 4px;
+    margin: 5px;
+}
+
+#barSection {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background-color: aquamarine;
+}
+
+#sortSection {
+    margin: 20px;
+}
+
+#bars-container {
+    height: 1000px;
+    background-color: beige;
+}
+
+#speedBar {
+    width: 500px;
+    height: 100px;
+}
